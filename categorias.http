@@ -1,0 +1,28 @@
+GET https://localhost:7005/api/categorias
+
+###
+
+GET https://localhost:7005/api/categorias/16
+
+###
+
+POST https://localhost:7005/api/categorias
+Content-Type: application/json
+
+{
+    "nombre": "Found Footage"
+}
+
+###
+
+PUT https://localhost:7005/api/categorias/17
+Content-Type: application/json
+
+{
+    "categoriaid": 17,
+    "nombre": "Found Fotage/Metraje Encontrado"
+}
+
+###
+
+DELETE https://localhost:7005/api/categorias/6
